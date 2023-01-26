@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    font-family: "Asap", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34,34,32);
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 10% 80% 10%;
+    text-align: center;
+    color: rgb(218, 175, 23);
+    font-size: 40px;
+    gap: 25px;
+}
+.text{  
+    margin-top: 20%;
+    color: rgb(218, 175, 23);
+}
+button{
+    border: 3px;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+    color: rgb(34,34,32); 
+    background-color: rgb(218, 175, 23);
+    transition-duration: 0.4s;
+    font-size: 40px;
+}
+button:hover{
+    background-color: rgb(161, 131, 20);
+    color: rgb(255, 255, 255)
+}
+.kontakt{
+    margin-right:50%;
+    margin-top: 10%;
+    font-size: 11px;
+    text-align: center; 
+}
+.kontakt button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}
+.OmOss{
+    
+    margin-top: 10%;
+    font-size: 11px;
+    text-align: center; 
+}
+.OmOss button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}
